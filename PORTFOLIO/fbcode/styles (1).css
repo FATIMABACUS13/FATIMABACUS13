@@ -1,0 +1,121 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.6;
+    color: #333;
+}
+header {
+    background: linear-gradient(45deg, #1abc9c, #16a085);
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+header h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+header p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+nav {
+    background: #34495e;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+nav a:hover {
+    background: #1abc9c;
+}
+main {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+section {
+    margin-bottom: 60px;
+}
+section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #1abc9c;
+    display: inline-block;
+}
+.skills, .projects {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+}
+.card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    text-align: center;
+    background: #fff;
+    transition: transform 0.2s;
+}
+.card:hover {
+    transform: scale(1.05);
+}
+.card h3 {
+    font-size: 1.5rem;
+    background: #1abc9c;
+    color: white;
+    margin: 0;
+    padding: 15px 0;
+}
+.card p {
+    padding: 15px;
+    font-size: 1rem;
+}
+.card a {
+    display: block;
+    padding: 10px 0;
+    background: #16a085;
+    color: white;
+    text-decoration: none;
+}
+.card a:hover {
+    background: #1abc9c;
+}
+footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+#about img {
+    max-width: 250px;
+    border: 5px solid #16a085;
+    margin-top: 20px;
+}
+#contact a {
+    color: #1abc9c;
+    text-decoration: none;
+    font-weight: bold;
+}
+#contact a:hover {
+    text-decoration: underline;
+}
+
